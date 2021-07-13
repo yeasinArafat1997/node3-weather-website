@@ -14,8 +14,8 @@ frm.addEventListener('submit',(e)=>{
         if(data.error){
         messageOne.textContent = data.error
         }else{
-            messageOne.textContent = 'Location =>'+data.location
-            messageTwo.textContent = data.forecast
+            messageOne.textContent = 'Location =>'+data.location;
+            messageTwo.textContent = data.forecast;
         }
     })
 })
